@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photorealistic-wild-tuna-day-celebration.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 8%;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    color: orange;
+    font-size: 14px;
+    transition: 0.3s ease ease-in-out;
+}
+nav ul li a:hover{
+    color: white;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: black;
+    font-size: 45px;
+}
+p{
+    color: white;
+    font-size: 35px;
+}
+.cn{
+    width: 150px;
+    color: blue;
+    font-size: 12px;
+    padding: 12px 0;
+    background: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: 0.3s ease-in-out;
+}
+.but{
+    color: orange;
+    font-size: 55px;
+}
+.cn:hover{
+    background: white;
+    color: black;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card1{
+    background-image: url(thermometers_hot_and_cold.jpg);
+}
+.card2{
+    background-image: url(grey-mullet-water.jpg);
+}
+.card3{
+    background-image: url(view-realistic-hand-touching-clear-flowing-water.jpg);
+}
+.card4{
+    background-image: url(EB2.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: black;
+    text-shadow: 0 0 5px #999;
+}
+.tuntun{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}

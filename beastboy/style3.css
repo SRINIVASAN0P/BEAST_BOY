@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.para{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position:relative;
+}
+.bi{
+    background-color: cornflowerblue;
+}
+.link{
+    text-align:center;
+    
+}
+.head{
+    text-align: center;
+    padding-top: 300px;
+    color:blueviolet;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mar{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    background-color: aliceblue;
+}
+.tab{
+    margin-top: 200px;
+    margin-right: auto;
+}
+.srch{
+    width: 100%;
+    padding-left: 208;
+    float:right 0;
+    padding-top: 30px;
+    padding-left: 1300px;
+}
+.gokul{
+    text-align:right;
+    padding-top: 30px;
+}
